@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.callofdroidy.capturedata.ActivityCaptureAudio"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_capture_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_audio_record_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="start"
+        android:onClick="onAudioRecordStart"
+        />
+
+    <Button
+        android:id="@+id/btn_audio_record_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="stop"
+        android:onClick="onAudioRecordStop"
+        />
+</LinearLayout>
